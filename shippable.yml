@@ -11,7 +11,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 before_install:
-  - apt-get update
+  - sudo apt-get update
 
 # Running the test with Leiningen
 script:
