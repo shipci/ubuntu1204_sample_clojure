@@ -17,3 +17,5 @@ before_install:
 script:
   - cd sample
   - lein test
+  
+archive: true
